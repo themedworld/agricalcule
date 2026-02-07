@@ -13,7 +13,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "http://localhost:3000",
+    "https://datapilote-front-we6x.vercel.app/",
     "http://192.168.56.1:3000"
 ]
 
